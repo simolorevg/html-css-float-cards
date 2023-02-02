@@ -7,8 +7,15 @@
 
 /*COMMON*/
 
+/*CONTAINER*/
+
+.container{
+    width:80%;
+    margin: 0 auto;
+}
 
 /*HEADER*/
+
 .headertitle{
     text-align: center;
     padding-top: 2rem;
@@ -16,3 +23,9 @@
 }
 
 /*MAIN*/
+
+.description{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    text-align: center; 
+}
