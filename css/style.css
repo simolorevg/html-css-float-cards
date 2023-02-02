@@ -50,15 +50,9 @@ body{
 .col{
     width: calc(100% / 3 - 20px);
     padding:20px;
-    float:left;
 }
 
 /*CARD SECTION*/
-.card{
-    width:100%;
-    background-color: black;
-    color: white;
-}
 
 .idphoto{
     float:left;
@@ -66,20 +60,3 @@ body{
     height:100%;
 }
 
-.info{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.info a{
-    color:white;
-    text-decoration: none;
-}
-
-.info h3{
-    padding-top: 5px;
-}
-
-
-.info p{
-    margin: 30px;
-}
