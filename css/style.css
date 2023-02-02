@@ -63,9 +63,11 @@
 }
 
 .info{
-    padding:0.9rem;
+    padding:1rem;
+    margin-right:10px;
 }
 .info h3,p,a{
     margin-bottom: 1rem;
     font-size: 1.5rem;
+    text-decoration: none;
 }
