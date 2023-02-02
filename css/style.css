@@ -15,6 +15,11 @@
 
 body{
     font-family: 'Kanit', sans-serif;
+    background-color: black ;
+    color:white;
+}
+h1{
+    font-size: 3rem;
 }
 
 /*CONTAINER*/
@@ -65,12 +70,39 @@ body{
 }
 
 .info{
-    padding:1.5rem;
-    margin-right:10px;
-}
-.info h3,p,a{
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-    text-decoration: none;
+    padding-top:20px;
 }
 
+.info h3,p,a{
+    margin-bottom: 1rem;
+}
+
+.info a{
+    text-decoration: none;
+    color:rgb(45, 201, 248);
+}
+
+/*SHADOW COLORS*/
+.redsha{
+    box-shadow: 5px 5px 20px red;
+}
+
+.orangesha{
+    box-shadow: 5px 5px 20px  orangered;
+}
+
+.yellowsha{
+    box-shadow: 5px 5px 20px yellow;
+}
+
+.greensha{
+    box-shadow: 5px 5px 20px green;
+}
+
+.bluesha{
+    box-shadow: 5px 5px 20px blue;
+}
+
+.purplesha{
+    box-shadow: 5px 5px 20px purple;
+}
