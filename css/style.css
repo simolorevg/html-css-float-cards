@@ -4,7 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*COMMON*/
-body{
-    background-color: red;
+
+
+/*HEADER*/
+.headertitle{
+    text-align: center;
+    padding-top: 2rem;
+    color: fuchsia;
 }
+
+/*MAIN*/
