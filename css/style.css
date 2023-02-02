@@ -50,8 +50,33 @@
     float:left;
 }
 
+/*CARD SECTION*/
 .card{
     width:100%;
     background-color: black;
     color: white;
+}
+
+.idphoto{
+    float:left;
+    max-width:100%;
+}
+
+
+.personinfo{
+    text-align:left;
+    padding:3rem 2rem;
+}
+
+.personinfo p{
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.personinfo a{
+    margin-bottom: 0.8rem;
+}
+
+.personinfo h2{
+    margin-top:0.8rem;
 }
