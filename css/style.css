@@ -13,6 +13,10 @@
 
 /*COMMON*/
 
+body{
+    background-color: grey;
+}
+
 /*CONTAINER*/
 
 .container{
@@ -46,7 +50,6 @@
 .col{
     width: calc(100% / 3 - 20px);
     padding:20px;
-    text-align: center;
     float:left;
 }
 
@@ -59,5 +62,24 @@
 
 .idphoto{
     float:left;
-    height: 150px;
+    width:30%;
+    height:100%;
+}
+
+.info{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.info a{
+    color:white;
+    text-decoration: none;
+}
+
+.info h3{
+    padding-top: 5px;
+}
+
+
+.info p{
+    margin: 30px;
 }
