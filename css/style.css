@@ -13,9 +13,6 @@
 
 /*COMMON*/
 
-body{
-    background-color: grey;
-}
 
 /*CONTAINER*/
 
@@ -44,19 +41,31 @@ body{
 
 .cardcontainer{
     width: 100%;
-    border:1px solid black;
 }
 
 .col{
     width: calc(100% / 3 - 20px);
-    padding:20px;
+    padding:30px;
+    float:left;
 }
 
 /*CARD SECTION*/
+.card{
+    background-color: black;
+    color:white;
+    height: 150px;
+    box-shadow: 5px 5px 20px black;
+}
 
 .idphoto{
     float:left;
-    width:30%;
     height:100%;
 }
 
+.info{
+    padding:0.9rem;
+}
+.info h3,p,a{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
