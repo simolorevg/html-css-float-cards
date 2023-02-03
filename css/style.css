@@ -69,6 +69,7 @@ h1{
 .idphoto{
     float:left;
     height:100%;
+    margin-right:10px;
 }
 
 .info{
