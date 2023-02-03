@@ -27,7 +27,6 @@ h1{
 .container{
     width:80%;
     margin: 0 auto;
-    max-width: 1100px;
 }
 
 /*HEADER*/
@@ -70,7 +69,6 @@ h1{
 .idphoto{
     float:left;
     height:100%;
-    margin-right:10px;
 }
 
 .info{
